@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Frontend Developer",
+        "company": "Personal Projects",
+        "date": "2024 - Present",
+        "description": "Built responsive websites using HTML, CSS, Bootstrap, and JavaScript. Created projects like coffee shop websites, game top-up platforms, and portfolio websites.",
+        "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    },
+    {
+        "title": "Python Developer",
+        "company": "University Project",
+        "date": "2025",
+        "description": "Developed menu-driven console applications with file handling, logging, and modular programming.",
+        "tags": ["Python", "JSON", "CLI App"]
+    },
+    {
+        "title": "Database Designer",
+        "company": "Academic Project",
+        "date": "2025",
+        "description": "Designed and implemented database systems using MySQL and Microsoft Access, including invoice and restaurant systems.",
+        "tags": ["MySQL", "MS Access", "SQL"]
+    },
+    {
+    "title": "Backend Developer",
+    "company": "Teamwork & University Projects",
+    "date": "2026 - Present",
+    "description": "Developed backend applications and RESTful APIs using Express and Node. Worked with authentication, database relationships, CRUD operations, API integration, and MySQL database management.",
+    "tags": ["NODE", "EXPRESS", "REST API", "MySQL"]
+}
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "badge": "Frontend",
+        "image": "assets/Images/youth.png",
+        "title": "Youth Cambodia Platform",
+        "subtitle": "Youth Cambodia Platform",
+        "description": "A community-driven web platform designed to support and empower youth in Cambodia. It provides access to events, educational resources, volunteer opportunities, and networking spaces.",
+        "link": "https://for-youth-cambodia.netlify.app/"
+    },
+    {
+        "badge": "Frontend",
+        "image": "assets/Images/systopup.png",
+        "title": "Sys-TopUp Clone",
+        "subtitle": "Fast and secure game top-up platform",
+        "description": "A clone of a digital top-up system where users can purchase in-game credits and services. The platform focuses on speed, user-friendly design, and secure transactions.",
+        "link": "https://sys-topup.netlify.app/"
+    },
+    {
+        "badge": "Frontend",
+        "image": "assets/Images/tour.png",
+        "title": "Tour Trips",
+        "subtitle": "Tour Trips Booking System",
+        "description": "A travel web application that allows users to explore tour packages, view destinations, and book trips easily. It features destination highlights, pricing details, and booking management.",
+        "link": "https://tour-trip-assignment-web.netlify.app/"
+    },
+    {
+        "badge": "Experied API",
+        "image": "assets/Images/no-image.jpg",
+        "title": "Sabay Tinh",
+        "subtitle": "A space for sharing feelings and stories",
+        "description": "A social platform that allows users to express emotions, share personal stories, and connect with others. It promotes positivity, emotional support, and community interaction.",
+        "link": "https://github.com/Sphinzy/sabay-tinh"
+    },
+    {
+        "badge": "Experied API",
+        "image": "assets/Images/no-image.jpg",
+        "title": "Blogfy",
+        "subtitle": "Modern blogging interface for creators",
+        "description": "A responsive frontend blogging platform where users can read, write, and explore articles. It focuses on clean design, readability, and smooth user interaction.",
+        "link": "https://github.com/Sphinzy/JavaScript-Mini-Project"
+    },
+    {
+        "badge": "Experied API",
+        "image": "assets/Images/no-image.jpg",
+        "title": "JobHub",
+        "subtitle": "Backend service for job matching platforms",
+        "description": "A backend system that powers a job portal, handling user authentication, job listings, applications, and employer management. It provides RESTful APIs for frontend integration.",
+        "link": "https://github.com/Sphinzy/advan-web-assignment"
+    }
+]

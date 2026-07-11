@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satsya Portfolio</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!-- icon  -->
+    <link rel="stylesheet" href="./assets/icons/bootstrap-icons.css">
+    <!-- font  -->
+    <link rel="stylesheet" href="./assets/fonts/KantumruyPro-Bold.ttf">
+    <link rel="stylesheet" href="./assets/fonts/KantumruyPro-Regular.ttf">
+    <link rel="stylesheet" href="./assets/fonts/Poppins-Bold.ttf">
+    <link rel="stylesheet" href="./assets/fonts/Poppins-Regular.ttf">
+
+    <!-- boostrap  -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+
+
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <nav class="navbar fixed-top glass-navbar rounded-pill px-5" style="background-color: var(--bg-body);">
+
+            <div class="container"> <!-- changed -->
+
+                <div class="d-flex align-items-center">
+
+                    <!-- Mobile menu button -->
+                    <button class="btn border-0 d-lg-none me-2" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasMenu">
+                        <i class="bi bi-list fs-3 text-card"></i>
+                    </button>
+
+                    <!-- Brand -->
+                    <a href="#" class="navbar-brand text-white fs-2 fw-medium pixelify">
+                        Satsya
+                    </a>
+
+                    <!-- Desktop menu -->
+                    <ul class="navbar-nav d-none d-lg-flex flex-row gap-4 align-items-center ms-4">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#exp">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#project">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#skill">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right side -->
+                <button class="btn border-0 themeToggle">
+                    <i class="bi bi-brightness-high"></i>
+                </button>
+
+            </div>
+        </nav>
+
+        <hr class="border-light w-100 m-0">
+    </header>
+
+    <!-- ================= OFFCANVAS (LEFT) ================= -->
+    <div class="offcanvas offcanvas-start bg-card text-card" tabindex="-1" id="offcanvasMenu">
+        <div class="offcanvas-header">
+            <h5>Satsya</h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item text-card"><a class="nav-link text-card" href="#">Home</a></li>
+                <li class="nav-item text-card"><a class="nav-link text-card" href="#project">Projects</a></li>
+                <li class="nav-item text-card"><a class="nav-link text-card" href="#exp">Experience</a></li>
+                <li class="nav-item"><a class="nav-link text-card" href="#skill">Skills</a></li>
+                <li class="nav-item text-card"><a class="nav-link text-card" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="https://github.com/Sphinzy" target="_blank" class="btn fixed-btn rounded-circle">
+        <i class="bi bi-github"></i>
+    </a>
+
+    <main>
+
+        <section>
+            <div class="container-fluid p-0 m-0">
+                <div class="hero-banner position-relative">
+
+                    <img src="assets/Images/banner02.gif" class="w-100 object-fit-cover" style="height: 100vh;" alt="">
+
+                    <!-- Text overlay -->
+                    <div class="hero-text position-absolute text-white text-center pixelify">
+                        <h1 class="pixelify pb-4">Welcome To My Portfolio</h1>
+                        <a href="#project" class="btn pixel-btn text-decoration-none py-2 px-5">Let's Go</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-15" id="project">
+            <div class="container">
+                <h1 class="pixelify text-center">
+                    Project
+                </h1>
+                <p class="py-5 fs-5">A collection of my web development projects built using HTML, CSS,
+                    JavaScript, and modern frameworks. Each project
+                    demonstrates my skills in UI design, responsiveness, and problem-solving.</p>
+
+
+                <div class="row g-5" id="project-list">
+                    <!-- Project cards will be generated here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="exp">
+    <div class="container">
+        <div class="experience">
+            <h2 class="section-title text-center pixelify">
+                My Experience
+            </h2>
+
+            <div class="timeline" id="experience-list">
+                <!-- Experience data will be generated here -->
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="py-10" id="skill">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5" id="about">
+                        <div class="py-15">
+                            <div>
+                                <!-- <span class="badge " style="background-color: var(--primary); color: var(--secondary);"><i class="bi bi-x-diamond-fill me-2"></i>Primary</span> -->
+                                <h1 class="fw-bold py-2 pixelify">
+                                    Hi, I'm Satsya
+                                </h1>
+                                <div>
+                                    <h3>
+                                        I'm
+                                        <span id="typing" style="color: #38bdf8;"></span>
+                                    </h3>
+                                </div>
+                                <p class="fade-up text-secondary py-4">
+                                    I’m a passionate web developer who enjoys building clean, responsive, and
+                                    user-friendly websites. I’m currently
+                                    focused
+                                    on Frontend development using Vue.js and Tailwind CSS, and I’m learning Laravel for
+                                    backend development.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Sphinzy" target="_blank" class="btn pixel-btn">
+                                    Link GitHub <i class="bi bi-github ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <div class="pixel-card ms-auto">
+                            <img src="./assets/Images/pic.jpg" class="w-100 rounded-3 shadow-lg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="pixel-card me-auto">
+                            <img src="./assets/Images/etec-basic.jpg" class="w-100 rounded-3 shadow-lg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div>
+                                <h2 class="pixel-text">Certificate of Achievement</h2>
+                                <p class="fade-up fs-5">
+                                    This certificate is awarded to <span class="date fs-4">Chum Satsya</span> for
+                                    successfully completing <span class="date fs-5">Fundamental From ETEC Center</span> with
+                                    outstanding
+                                    performance and dedication.
+                                </p>
+                                <span class="date fs-5">14 Oct 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div>
+                                <h2 class="pixel-text">Certificate of Achievement</h2>
+                                <p class="fade-up fs-5">
+                                    This certificate is awarded to <span class="date fs-4">Chum Satsya</span> for
+                                    successfully completing <span class="date fs-5">Society From API</span> with
+                                    outstanding
+                                    performance and dedication.
+                                </p>
+                                <span class="date fs-5">11 Oct 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <div class="pixel-card ms-auto">
+                            <img src="./assets/Images/API.jpg" class="w-100 rounded-3 shadow-lg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-5">
+                        <div class="pixel-card me-auto">
+                            <img src="./assets/Images/ant-web-design.jpg" class="w-100 rounded-3 shadow-lg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div>
+                                <h2 class="pixel-text">Certificate of Achievement</h2>
+                                <p class="fade-up fs-5">
+                                    This certificate is awarded to <span class="date fs-4">Chum Satsya</span> for
+                                    successfully completing <span class="date fs-5">Web Design From ANT Training</span> with
+                                    outstanding
+                                    performance and dedication.
+                                </p>
+                                <span class="date fs-5">14 Oct 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div>
+                                <h2 class="pixel-text">Certificate of Achievement</h2>
+                                <p class="fade-up fs-5">
+                                    This certificate is awarded to <span class="date fs-4">Chum Satsya</span> for
+                                    successfully completing <span class="date fs-5">FrontEnds From ETEC Center</span> with
+                                    outstanding
+                                    performance and dedication.
+                                </p>
+                                <span class="date fs-5">15 Jan 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <div class="pixel-card ms-auto">
+                            <img src="./assets/Images/etec-frontend.jpg" class="w-100 rounded-3 shadow-lg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <h3 class="pixelify">Chum Satsya</h3>
+                    <p>Web Developer passionate about building modern websites.</p>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="pixelify">Quick Links</h4>
+                    <ul class="navbar-nav text-decoration-none">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="pixelify">Contact</h4>
+                    <a href="mailto:chumsatsya2703@gmail.com" target="_blank">Email: chumsatsya2703@email.com</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Chum Satsya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+
+    <script src="./assets/Javascript/script.js"></script>
+    <script src="./assets/bootstrap-5.3.7/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
