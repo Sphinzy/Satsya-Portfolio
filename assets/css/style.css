@@ -24,7 +24,7 @@ body[data-bs-theme="dark"] {
 body[data-bs-theme="light"] {
     --bg-body: #F2F5F9;
     --text-body: #212529;
-    --bg-card: #f5f5f5;
+    --bg-card: #fff;
     --text-card: #212529;
     --primary: #1d263e;
     --secondary: #f3f3f3;
@@ -133,11 +133,10 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    width: 100%;
 }
 
 .clamp-1 {
-    -webkit-line-clamp: 1 ;
+    -webkit-line-clamp: 1;
 }
 
 .clamp-2 {
