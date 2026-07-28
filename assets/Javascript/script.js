@@ -83,7 +83,7 @@ fetch("assets/data/projects.json")
 
         projects.forEach((project, index) => {
             projectList.innerHTML += `
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="pixel-card h-100 d-flex flex-column">
 
                         <div class="badge">${project.badge}</div>
@@ -281,7 +281,7 @@ fetch("assets/data/certificates.json")
 
         // ---------- MOBILE (stacked card) ----------
         mobileHtml += `
-        <div class="col-12">
+        <div class="col-12 col-md-6">
             <div class="pixel-card">
                 <img src="${item.image}" 
                     class="w-100 rounded-3 shadow-lg preview-trigger" 

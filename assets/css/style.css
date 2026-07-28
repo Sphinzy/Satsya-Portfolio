@@ -1,11 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kantumruy+Pro:wght@100..700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 /* RESET */
-* {
-    margin: 0 ;
-    padding: 0;
-    box-sizing: border-box;
-}
 .pixelify{
     font-family: "Pixelify Sans", sans-serif !important;
 }
@@ -138,10 +133,11 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    width: 100%;
 }
 
 .clamp-1 {
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 1 ;
 }
 
 .clamp-2 {
