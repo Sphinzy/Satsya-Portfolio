@@ -1,14 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kantumruy+Pro:wght@100..700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Pixelify+Sans:wght@400..700&display=swap');
+
 /* RESET */
 
 .pixelify {
-  font-family: "Pixelify Sans", sans-serif !important;
+  font-family: "Pixelify Sans", monospace !important;
   font-optical-sizing: auto;
 }
 /* BASE */
 body {
-    font-family: "consolas", "Kantumruy Pro", sans-serif;
+    font-family: "JetBrains Mono", "Kantumruy Pro", monospace;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 /* ================= DARK ================= */
