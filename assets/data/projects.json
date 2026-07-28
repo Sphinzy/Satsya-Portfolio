@@ -25,11 +25,11 @@
     },
     {
         "badge": "Experied API",
-        "image": "assets/Images/no-image.jpg",
+        "image": "assets/Images/sabay-tinh.png",
         "title": "Sabay Tinh",
         "subtitle": "A space for sharing feelings and stories",
         "description": "A social platform that allows users to express emotions, share personal stories, and connect with others. It promotes positivity, emotional support, and community interaction.",
-        "link": "https://github.com/Sphinzy/sabay-tinh"
+        "link": ""
     },
     {
         "badge": "Experied API",
@@ -37,14 +37,14 @@
         "title": "Blogfy",
         "subtitle": "Modern blogging interface for creators",
         "description": "A responsive frontend blogging platform where users can read, write, and explore articles. It focuses on clean design, readability, and smooth user interaction.",
-        "link": "https://github.com/Sphinzy/JavaScript-Mini-Project"
+        "link": ""
     },
     {
         "badge": "Experied API",
-        "image": "assets/Images/no-image.jpg",
+        "image": "assets/Images/jobhub.png",
         "title": "JobHub",
         "subtitle": "Backend service for job matching platforms",
         "description": "A backend system that powers a job portal, handling user authentication, job listings, applications, and employer management. It provides RESTful APIs for frontend integration.",
-        "link": "https://github.com/Sphinzy/advan-web-assignment"
+        "link": ""
     }
 ]

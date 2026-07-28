@@ -473,3 +473,90 @@ position: fixed;
     border-top: 1px solid #333;
     padding-top: 15px;
 }
+/* Modal theming to match pixel style */
+.modal-content {
+    border-radius: 10px !important;
+}
+
+.modal-header,
+.modal-footer {
+    padding: 15px 20px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#modalImage {
+    border-bottom: 4px solid #ffcc00;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    #modalImage {
+        max-height: 220px !important;
+    }
+
+    .modal-footer {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .modal-footer .btn {
+        width: 100%;
+        margin: 0 !important;
+    }
+}
+
+.pixel-card .view-cert-btn {
+    border-radius: 0 0 6px 6px !important;
+    font-size: 14px;
+}
+
+.preview-trigger {
+    cursor: zoom-in;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.preview-trigger:hover {
+    filter: brightness(1.1);
+}
+
+.preview-img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    cursor: grab;
+    transition: transform 0.1s ease-out;
+    touch-action: none;
+}
+
+#imagePreviewModal .modal-body {
+    overflow: hidden;
+    touch-action: none;
+}
+
+@media (max-width: 768px) {
+    #certModalImage {
+        max-height: 250px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+    .preview-img {
+        max-height: 80vh;
+    }
+}

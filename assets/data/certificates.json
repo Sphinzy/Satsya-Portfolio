@@ -1,0 +1,58 @@
+{
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Certificate of Achievement",
+            "name": "Chum Satsya",
+            "course": "Fundamental From ETEC Center",
+            "date": "14 Oct 2024",
+            "image": "./assets/Images/etec-basic.jpg",
+            "description": "This certificate is awarded to Chum Satsya for successfully completing Fundamental From ETEC Center with outstanding performance and dedication."
+        },
+        {
+            "id": 2,
+            "title": "Certificate of Achievement",
+            "name": "Chum Satsya",
+            "course": "Society From API",
+            "date": "11 Oct 2024",
+            "image": "./assets/Images/API.jpg",
+            "description": "This certificate is awarded to Chum Satsya for successfully completing Society From API with outstanding performance and dedication."
+        },
+        {
+            "id": 3,
+            "title": "Certificate of Achievement",
+            "name": "Chum Satsya",
+            "course": "Web Design From ANT Technology Training Center",
+            "date": "14 Oct 2025",
+            "image": "./assets/Images/ant-web-design.jpg",
+            "description": "This certificate is awarded to Chum Satsya for successfully completing Web Design From ANT Technology Training Center with outstanding performance and dedication."
+        },
+        {
+            "id": 4,
+            "title": "Certificate of Achievement",
+            "name": "Chum Satsya",
+            "course": "FrontEnds From ETEC Center",
+            "date": "15 Jan 2025",
+            "image": "./assets/Images/etec-frontend.jpg",
+            "description": "This certificate is awarded to Chum Satsya for successfully completing FrontEnds From ETEC Center with outstanding performance and dedication."
+        },
+        {
+            "id": 5,
+            "title": "Certificate Transcript",
+            "name": "Chum Satsya",
+            "course": "Web Design Training Program at ANT Technology Training Center",
+            "date": "14 Oct 2025",
+            "image": "./assets/Images/ant-trainscritp.PNG",
+            "description": "This transcript is awarded to Chum Satsya for successfully completing the Web Design Training Program at ANT Technology Training Center, recognizing dedication, creativity, and the successful development of fundamental web design skills."
+        },
+        {
+            "id": 6,
+            "title": "Certificate of Achievement",
+            "name": "Chum Satsya",
+            "course": "Full Stack Web Development Training Program at ANT Technology Training Center",
+            "date": "25 July 2026",
+            "image": "./assets/Images/ant-web-full-stack.jpg",
+            "description": "This certificate is awarded to Chum Satsya for successfully completing the Full Stack Web Development Training Program at ANT Technology Training Center, demonstrating practical knowledge in frontend and backend development with strong commitment and dedication."
+        }
+    ]
+}
