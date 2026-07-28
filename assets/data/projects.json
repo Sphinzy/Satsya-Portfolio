@@ -46,5 +46,13 @@
         "subtitle": "Backend service for job matching platforms",
         "description": "A backend system that powers a job portal, handling user authentication, job listings, applications, and employer management. It provides RESTful APIs for frontend integration.",
         "link": ""
-    }
+    },
+    {
+    "badge": "Full Stack Web Application",
+    "image": "assets/Images/sahakka.png",
+    "title": "SAHAKKA",
+    "subtitle": "Project management system for team collaboration",
+    "description": "A full-stack project management platform built to improve team productivity through workspace, team, and task management. The system includes authentication, role-based permissions, RESTful API integration, document management, task tracking, feedback, activity logs, and analytics dashboard.",
+    "link": "https://sahakkafront.genz.linkpc.net/"
+}
 ]
